@@ -1,9 +1,6 @@
-import requests
-from neutrino_api.neutrino_api_client import NeutrinoApiClient
-from neutrino_api.controllers.security_and_networking import SecurityAndNetworking
-from backend.neutrino_wrapper.enricher_template import EnricherTemplate
+from enricher_template import EnricherTemplate
 from neutrino_api.controllers.telephony import Telephony
-from backend.data_objects.enriched_succssor import PhoneNumbersSummaryItem
+from enriched_succssor import PhoneNumbersSummaryItem
 from typing import List
 
 

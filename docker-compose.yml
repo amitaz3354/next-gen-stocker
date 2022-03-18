@@ -2,12 +2,12 @@ version: '3'
 
 services:
   fastapi:
-    build: fastapi/
+    build: backend/
     ports:
       - 8000:8000
     networks:
       - deploy_network
-    container_name: fastapi
+    container_name: backend
 
   streamlit:
     build: streamlit/

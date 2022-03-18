@@ -1,5 +1,5 @@
-from backend.neutrino_wrapper.enricher_template import EnricherTemplate
-from backend.data_objects.enriched_succssor import EmailsSummaryItem
+from enricher_template import EnricherTemplate
+from enriched_succssor import EmailsSummaryItem
 from neutrino_api.controllers.security_and_networking import SecurityAndNetworking
 from typing import List
 

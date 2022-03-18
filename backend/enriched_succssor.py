@@ -17,6 +17,6 @@ class EmailsSummaryItem(BaseModel):
 
 
 class EnrichedSuccessor(BaseModel):
-    successorName: str
+    successor_name: str
     phone_numbers_summary: List[PhoneNumbersSummaryItem]
     emails_summary: List[EmailsSummaryItem]
